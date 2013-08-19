@@ -1,2 +1,2 @@
 @echo off
-for /F "usebackq delims=" %%i in ("%~dp0\marks\%~1") do cd "%%i"
+for /F "usebackq delims=" %%i in ("%~dp0marks\%~1") do cd "%%i"
