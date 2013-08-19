@@ -15,9 +15,9 @@ Marks will be stored under a `marks` subdirectory, relatively to the location of
 Usage
 =====
 
-* `mark <name>` to create a named shortcut to the current directory. Example: `mark docs`
+* `m <name>` to create a named shortcut to the current directory. Example: `m docs`
+* `j <name>` to follow a given shortcut. Example: `j docs`
 * `unmark <name>` to delete a given shortcut. Example: `unmark docs`
-* `jump <name>` to follow a given shortcut. Example: `jump docs`
 * `marks` to print all available shortcuts.
 
 Example session:
@@ -25,7 +25,7 @@ Example session:
     C:\Windows> mark win
     
     C:\Windows> marks
-    win => C:\Windows
+    win -> C:\Windows
     
     C:\Windows> cd ..
     
