@@ -5,6 +5,8 @@ A port of Jeroen Janssens marks' tools to Windows (does not require PowerShell).
 
 See http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html for the blog post describing the original tools.
 
+There was also a thread on Hacker News: https://news.ycombinator.com/item?id=6229001.
+
 Installation
 ============
 
